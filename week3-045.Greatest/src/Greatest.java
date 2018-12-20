@@ -3,7 +3,7 @@ public class Greatest {
 
     public static int greatest(int number1, int number2, int number3) {
 
-        return -1;
+        return Math.max(number3,Math.max(number1, number2));
     }
 
     public static void main(String[] args) {
