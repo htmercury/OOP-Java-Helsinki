@@ -5,7 +5,7 @@ public class MoreThanOnce {
 
     public static boolean moreThanOnce(ArrayList<Integer> list, int searched) {
         // write your code here
-        return false;
+        return list.indexOf(searched) != list.lastIndexOf(searched);
     }
 
     public static void main(String[] args) {
