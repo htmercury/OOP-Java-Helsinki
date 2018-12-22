@@ -11,7 +11,7 @@ public class NameTest {
     public MockStdio io = new MockStdio();
 
     @Test
-    public void testName() {
+    public void test() {
         Name.main(new String[0]);
         String out = io.getSysOut();
         assertTrue("You did not print anything!",out.length()>0);
