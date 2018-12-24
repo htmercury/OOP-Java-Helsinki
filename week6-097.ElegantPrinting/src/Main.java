@@ -9,5 +9,10 @@ public class Main {
 
     public static void printElegantly(int[] array) {
         // Write code here
+        String res = "";
+        for (int n : array) {
+            res += (n + ", ");
+        }
+        System.out.println(res.substring(0, res.length()-2));
     }
 }

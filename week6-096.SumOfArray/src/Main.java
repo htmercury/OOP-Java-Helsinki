@@ -9,6 +9,10 @@ public class Main {
 
     public static int sum(int[] array) {
         // Write code here
-        return 0;
+        int res = 0;
+        for (int n : array) {
+            res += n;
+        }
+        return res;
     }
 }
