@@ -19,5 +19,7 @@ public class Main {
         boolean tulos = BinarySearch.search(taulukko, Integer.parseInt(etsittavaLuku));
 
         // Print here the result
+        String res = tulos ? "" : "not ";
+        System.out.format("Value %s is in %sthe array\n", etsittavaLuku, res);
     }
 }
